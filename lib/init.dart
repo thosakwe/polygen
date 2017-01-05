@@ -37,7 +37,7 @@ class InitCommand extends Command {
       await web
           .file('main.dart')
           .io
-          .writeAsString("export 'package:polymer/init.dart';");
+          .writeAsString("import 'components/my_app/my_app.dart';\nexport 'package:polymer/init.dart';");
     });
 
     project.root.file('analysis_options.yaml', (analysisOptions) {
