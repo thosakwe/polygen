@@ -1,0 +1,9 @@
+name: polygen
+version: 0.0.0
+description: Dart Polymer CLI tool
+publish_to: none
+dependencies:
+  code_builder: ^1.0.0-beta
+  project_gen: ^0.0.0
+executables:
+  polygen:
